@@ -3,7 +3,7 @@
 ## Summary
 
 * [Approach](#Approach)
-* [Purpose] #Purpose)
+* [Purpose](#Purpose)
 * [Schema definition](#Schema-definition)
 * [How to run](#How-to-run)
 * [Example queries](#Example-queries)
@@ -14,7 +14,7 @@ To complete this project the following steps were followed:
 
 * Create neccesarry tables
 * Build ETL Processes and ETL Pipeline for a database hosted on Redshift
-    * create a Redshift clusterž
+    * create a Redshift cluster
     * load data from S3 to staging tables on Redshift
     * transforms data into a set of dimensional tables
 * Document the process
