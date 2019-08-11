@@ -2,10 +2,10 @@
 
 ## Summary
 
-* [Approach] (#Approach)
-* [Purpose] (#Purpose)
-* [Data processing] (#Data-processing)
-* [How to run] (#How-to-run)
+* [Approach](#Approach)
+* [Purpose](#Purpose)
+* [Data processing](#Data-processing)
+* [How to run](#How-to-run)
 --------------------------------------------
 
 ### Approach
@@ -30,7 +30,7 @@ python etl.py             # runs ETL process and populates S3 bucekts with data
 ```
 
 Note: The necessary data should be populated in the two config files:
-*`dl.cfg` - config to the Redsift cluster creation
-    *[AWS]
-        *KEY=<aws_key>
-        *SECRET=<aws_secret>
+* `dl.cfg` - config to the Redsift cluster creation
+    * [AWS]
+        * KEY=<aws_key>
+        * SECRET=<aws_secret>

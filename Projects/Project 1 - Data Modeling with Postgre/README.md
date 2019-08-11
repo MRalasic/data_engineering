@@ -2,11 +2,11 @@
 
 ## Summary
 
-* [Approach] (#Approach)
-* [Purpose] (#Purpose)
-* [Schema definition] (#Schema-definition)
-* [How to run] (#How-to-run)
-* [Example queries] (#Example-queries)
+* [Approach](#Approach)
+* [Purpose](#Purpose)
+* [Schema definition](#Schema-definition)
+* [How to run](#How-to-run)
+* [Example queries](#Example-queries)
 --------------------------------------------
 
 ### Approach

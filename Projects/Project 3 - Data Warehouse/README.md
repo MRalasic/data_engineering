@@ -2,11 +2,11 @@
 
 ## Summary
 
-* [Approach] (#Approach)
-* [Purpose] (#Purpose)
-* [Schema definition] (#Schema-definition)
-* [How to run] (#How-to-run)
-* [Example queries] (#Example-queries)
+* [Approach](#Approach)
+* [Purpose] #Purpose)
+* [Schema definition](#Schema-definition)
+* [How to run](#How-to-run)
+* [Example queries](#Example-queries)
 --------------------------------------------
 
 ### Approach
@@ -14,9 +14,9 @@ To complete this project the following steps were followed:
 
 * Create neccesarry tables
 * Build ETL Processes and ETL Pipeline for a database hosted on Redshift
-    *create a Redshift cluster
-    *load data from S3 to staging tables on Redshift
-    *transforms data into a set of dimensional tables
+    * create a Redshift clusterž
+    * load data from S3 to staging tables on Redshift
+    * transforms data into a set of dimensional tables
 * Document the process
 
 ### Purpose
@@ -48,34 +48,34 @@ python etl.py             # populate tables with provided data
 ```
 
 Note: The necessary data should be populated in the two config files:
-*`create_cluster.cfg` - config to the Redsift cluster creation
-    *[AWS]
-        *KEY=<aws_key>
-        *SECRET=<aws_secret>
-    *[DWH] 
-        *DWH_CLUSTER_TYPE=<cluster_type>
-        *DWH_NUM_NODES=<number_of_nodes>
-        *DWH_NODE_TYPE=<node_type>
-        *DWH_IAM_ROLE_NAME=<iam_role_name>
-        *DWH_CLUSTER_IDENTIFIER=<cluster_identifier>
-        *DWH_DB=<database_name>
-        *DWH_DB_USER=<database_user>
-        *DWH_DB_PASSWORD=<database_password>
-        *DWH_PORT=<database_port>
+* `create_cluster.cfg` - config to the Redsift cluster creation
+    * [AWS]
+        * KEY=<aws_key>
+        * SECRET=<aws_secret>
+    * [DWH] 
+        * DWH_CLUSTER_TYPE=<cluster_type>
+        * DWH_NUM_NODES=<number_of_nodes>
+        * DWH_NODE_TYPE=<node_type>
+        * DWH_IAM_ROLE_NAME=<iam_role_name>
+        * DWH_CLUSTER_IDENTIFIER=<cluster_identifier>
+        * DWH_DB=<database_name>
+        * DWH_DB_USER=<database_user>
+        * DWH_DB_PASSWORD=<database_password>
+        * DWH_PORT=<database_port>
 
-*`create_cluster.cfg` - config to the Redsift cluster creation
-    *[CLUSTER]
-        *HOST=<redshift_cluster_host>
-        *DB_NAME=<database_name>
-        *DB_USER=<database_user>
-        *DB_PASSWORD=<database_password>
-        *DB_PORT=<database_port>
-    *[IAM_ROLE]
-        *ARN=<iam_role>
-    *[S3]
-        *LOG_DATA=<s3_log_data_bucket>
-        *LOG_JSONPATH=<s3_log_json_path>
-        *SONG_DATA=<s3_song_data_bucket>
+* `create_cluster.cfg` - config to the Redsift cluster creation
+    * [CLUSTER]
+        * HOST=<redshift_cluster_host>
+        * DB_NAME=<database_name>
+        * DB_USER=<database_user>
+        * DB_PASSWORD=<database_password>
+        * DB_PORT=<database_port>
+    * [IAM_ROLE]
+        * ARN=<iam_role>
+    * [S3]
+        * LOG_DATA=<s3_log_data_bucket>
+        * LOG_JSONPATH=<s3_log_json_path>
+        * SONG_DATA=<s3_song_data_bucket>
 
 
 ### Example queries

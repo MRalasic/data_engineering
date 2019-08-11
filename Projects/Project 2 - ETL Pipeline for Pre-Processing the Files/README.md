@@ -2,11 +2,11 @@
 
 ## Summary
 
-* [Approach] (#Approach)
-* [Purpose] (#Purpose)
-* [Questions to answer] (#Questions-to-answer)
-* [How to run] (#How-to-run)
-* [Example queries] (#Example-queries)
+* [Approach](#Approach)
+* [Purpose](#Purpose)
+* [Questions to answer](#Questions-to-answer)
+* [How to run](#How-to-run)
+* [Example queries](#Example-queries)
 --------------------------------------------
 
 ### Approach
