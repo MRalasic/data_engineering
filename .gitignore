@@ -10,3 +10,4 @@ Credentials/create_cluster.cfg
 Credentials/accessKeys.csv
 Credentials/.ipynb_checkpoints/create_redshift_cluster-checkpoint.ipynb
 .DS_Store
+Credentials/create_cluster_v2.cfg
